@@ -1,0 +1,25 @@
+DECLARE
+i number:=1;
+trg_id number:=100;
+case_no number:=10000;
+BEGIN
+WHILE i <500 LOOP
+    INSERT INTO CO_TRIGGERS(TRG_ID,CASE_NUM,CREATE_DT,TRG_STATUS,UPDATE_DT)VALUES(trg_id,case_no,sysdate,'p',null);
+    i:= i + 1;
+    trg_id:=trg_id +1;
+    case_no:=case_no+1;
+  END LOOP;
+END;
+/
+
+
+create table co_triggers
+
+(
+	trg_id number,
+	case_num number,
+	create_dt date,
+	trg_status varchar2(10),
+	update_dt date
+
+)

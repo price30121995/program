@@ -1,0 +1,93 @@
+@import "http://fonts.googleapis.com/css?family=Raleway";
+
+body {
+	font-family: 'Raleway', sans-serif
+}
+
+div.regform {
+	width: 350px;
+	height: auto;
+	margin: 0px auto 0;
+	padding: 50px;
+	background-color: #d1f8fc;
+	color: #333;
+	border: 3px solid #400040;
+	border-radius: 2px;
+}
+
+h1 {
+	color: #FF1493;
+	text-align: center;
+	font-family: arial, sans-serif;
+	text-decoration: underline;
+}
+
+.regform p {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+label[for=gender1], label[for=gender2] {
+	color: white;
+}
+
+input#fname, #lname, #email, #pwd, #datepicker, #role, #ssn, #phno{
+	background-repeat: no-repeat;
+	background-position: 6px;
+	border: 1px solid #DADADA;
+	margin-bottom: 10px;
+	margin-top:  10px;
+	padding-left: 35px;
+	width: 310px;
+	height: 25px;
+	font-size: 14px;
+	box-shadow: 0 0 10px;
+	-webkit-box-shadow: 0 0 10px;
+	/* For I.E */
+	-moz-box-shadow: 0 0 10px;
+	/* For Mozilla Web Browser */
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	/* For I.E */
+	-moz-border-radius: 5px /* For Mozilla Web Browser */
+}
+
+input[type="submit"] {
+	width: 100%;
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	font-size: 20px;
+	margin: 8px 0;
+	border: 2px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+input[type="radio"] {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+input[type="submit"]:hover {
+	background: #00FF00;
+	transition: .6s;
+}
+
+.input-ssn-number, .input-ssn-number1 {
+	width: 96.5px;
+	height: 25px;
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 8px;
+	box-shadow: 0 0 10px;
+	-webkit-box-shadow: 0 0 10px;
+	/* For I.E */
+	-moz-box-shadow: 0 0 10px;
+	/* For Mozilla Web Browser */
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	/* For I.E */
+	-moz-border-radius: 5px /* For Mozilla Web Browser */
+}

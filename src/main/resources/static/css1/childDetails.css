@@ -1,0 +1,138 @@
+@import "http://fonts.googleapis.com/css?family=Raleway";
+
+body {
+	font-family: 'Raleway', sans-serif
+}
+
+div.regform {
+	width: 550px;
+	height: auto;
+	margin: 0px auto 0;
+	padding: 50px;
+	background-color: #c0c0c0;
+	color: #333;
+	border: 3px solid black;
+	border-radius: 2px;
+}
+
+h1 {
+	color: #ff0000;
+	text-align: center;
+	font-family: arial, sans-serif;
+	text-decoration: underline;
+}
+
+.regform p {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+label[for=gender1], label[for=gender2] {
+	color: white;
+}
+
+input[type="text"]{
+	background-repeat: no-repeat;
+	background-position: 6px;
+	border: 1px solid #DADADA;
+	margin-bottom: 10px;
+	margin-top:  10px;
+	padding-left: 35px;
+	width: 310px;
+	height: 25px;
+	font-size: 14px;
+	box-shadow: 0 0 10px;
+	-webkit-box-shadow: 0 0 10px;
+	For I.E
+	-moz-box-shadow: 0 0 10px;
+	For Mozilla Web Browser
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	For I.E
+	-moz-border-radius: 5px For Mozilla Web Browser
+}
+
+input[type="submit"] {
+	width: 100%;
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	font-size: 20px;
+	margin: 8px 0;
+	border: 2px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+input[type="radio"] {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+input[type="submit"]:hover {
+	background: #00FF00;
+	transition: .6s;
+}
+
+input[type="submit"]:disabled {
+	background: #c0c0c0;
+}
+
+input[type="submit"]:disabled:hover {
+	background: #808080;
+	transition: .6s;
+}
+
+.input-ssn-number, .input-ssn-number1 {
+	width: 96.5px;
+	height: 25px;
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 8px;
+	box-shadow: 0 0 10px;
+	-webkit-box-shadow: 0 0 10px;
+	For I.E
+	-moz-box-shadow: 0 0 10px;
+	For Mozilla Web Browser
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	For I.E
+	-moz-border-radius: 5px For Mozilla Web Browser
+}
+
+#childTbl {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#childTbl td, #childTbl th {
+  border: 1px solid #800000;
+  padding: 8px;
+}
+
+#childTbl tr:nth-child(even){background-color: #f2f2f2;}
+
+#childTbl tr:hover {background-color: #ddd;}
+
+#childTbl th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0000ff;
+  color: white;
+}
+
+#nextBtn{
+  background-color: #008000; 
+  border-radius: 8px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+  float: right;
+}

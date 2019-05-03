@@ -1,0 +1,36 @@
+@import "http://fonts.googleapis.com/css?family=Raleway";
+
+#viewApplicantTbl td, #viewApplicantTbl th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#viewApplicantTbl tr:nth-child(even){background-color: #f2f2f2;}
+
+#viewApplicantTbl tr:hover {background-color: #ddd;}
+
+#viewApplicantTbl th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: black;
+  color: white;
+}
+div.viewApplicants {
+	width: 70%;
+	height: auto;
+	margin: 50px auto 0;
+	padding: 50px;
+	background-color: #EEE;
+	color: #333;
+	border: 3px solid brown;
+	border-radius: 2px;
+}
+
+h2 {
+	color: #800040;
+	text-align: center;
+	font-family: arial, sans-serif;
+  	text-decoration: underline;
+	
+}

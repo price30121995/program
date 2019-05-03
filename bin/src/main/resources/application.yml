@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: dev
+  mvc:
+    view:
+      prefix: WEB-INF/views/
+      suffix: .jsp
+   # static-path-pattern: /resources/static/
+server:
+  servlet:
+    context-path: /IES

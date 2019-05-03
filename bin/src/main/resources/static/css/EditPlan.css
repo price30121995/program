@@ -1,0 +1,65 @@
+@import "http://fonts.googleapis.com/css?family=Raleway";
+
+body {
+	font-family: 'Raleway', sans-serif
+}
+
+div.updatePlan {
+	width: 340px;
+	height: auto;
+	margin: 50px auto 0;
+	padding: 50px;
+	background-color: #F5F5F5;
+	color: #333;
+	border: 3px solid #000000;
+	border-radius: 2px;
+}
+
+h1 {
+	color: #800000;
+	text-align: center;
+	font-family: arial, sans-serif;
+	
+}
+
+.updatePlan p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+input#pid,#pname,#pdesc,#sdate,#edate{
+	background-repeat: no-repeat;
+	background-position: 6px;
+	border: 1px solid #DADADA;
+	margin-bottom: 10px;
+	padding-left: 35px;
+	width: 310px;
+	height: 25px;
+	font-size: 14px;
+	box-shadow: 0 0 10px;
+	-webkit-box-shadow: 0 0 10px;
+	/* For I.E */
+	-moz-box-shadow: 0 0 10px;
+	/* For Mozilla Web Browser */
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	/* For I.E */
+	-moz-border-radius: 5px /* For Mozilla Web Browser */
+}
+
+ input[type="submit"]{
+		width: 100%;
+  		background-color: #C71585;
+  		color: white;
+  		padding: 14px 20px;
+  		font-size: 20px;
+  		margin: 8px 0;
+  		border: 2px;
+  		border-radius: 6px;
+  		cursor: pointer;
+	}
+  input[type="submit"]:hover{ 
+		background: #A52A2A; 
+		transition: .6s;
+		}

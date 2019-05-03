@@ -1,0 +1,84 @@
+@import "http://fonts.googleapis.com/css?family=Raleway";
+
+* {
+  box-sizing: border-box;
+}
+
+ 
+form.example input[type=search] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+ 
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#createCase td{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+div.createCase {
+	width: 340px;
+	height: auto;
+	margin: 50px auto 0;
+	padding: 30px;
+	background-color: #808000;
+	color: #808040;
+	border: 3px solid #FFFFFF;
+	border-radius: 5px;
+}
+
+h1 {
+	color: #FFFFFF;
+	text-align: center;
+	font-family: arial, sans-serif;
+	text-decoration: underline;
+	
+}
+
+.createCase p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+ input[type="submit"]{
+		width: 100%;
+  		background-color: #FF0000;
+  		color: white;
+  		padding: 14px 20px;
+  		font-size: 20px;
+  		margin: 8px 0;
+  		border: 2px;
+  		border-radius: 6px;
+  		cursor: pointer;
+	}
+  input[type="submit"]:hover{ 
+		background: #80ff00; 
+		transition: .6s;
+		}
